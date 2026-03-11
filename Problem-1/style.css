@@ -1,0 +1,26 @@
+.box1 {
+  width: 200px;
+  height: 100px;
+  font-style: italic;
+  color: azure;
+  background: rgb(4, 72, 127);
+  padding: 20px;
+}
+.box2 {
+  width: 200px;
+  height: 100px;
+  font-style: italic;
+  color: azure;
+  background: rgb(104, 4, 105);
+  margin: 20px;
+}
+h1{
+    background:rgb(4, 165, 141);
+    color:aliceblue;
+    font-style:italic ;
+}
+h2{
+    background:rgb(4, 165, 141);
+    color:aliceblue;
+    font-style:italic;
+}

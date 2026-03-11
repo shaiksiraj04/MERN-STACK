@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sirajuddin | Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body {
+            background: #f4f6f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        nav {
+            background: #0f172a;
+            color: white;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav h2 {
+            letter-spacing: 1px;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+        nav ul li {
+            margin-left: 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        nav ul li a:hover {
+            color: #38bdf8;
+        }
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(120deg, #2563eb, #38bdf8);
+            color: white;
+        }
+        .hero h1 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 18px;
+        }
+        .container {
+            width: 85%;
+            margin: auto;
+            padding: 40px 0;
+        }
+        section h2 {
+            margin-bottom: 15px;
+            color: #2563eb;
+            border-left: 5px solid #2563eb;
+            padding-left: 10px;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 25px;
+        }
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+        .skill-box {
+            background: #e0f2fe;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .hobbies {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .hobby {
+            background: #dbeafe;
+            padding: 10px 15px;
+            border-radius: 20px;
+        }
+        ol {
+            margin-left: 20px;
+        }
+        .contact-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .contact-table td {
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        .contact-table a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+        footer {
+            background: #0f172a;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+        @media(max-width:768px) {
+            nav {
+                flex-direction: column;
+            }
+            nav ul {
+                margin-top: 10px;
+            }
+            .hero h1 {
+                font-size: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <h2>Sirajuddin</h2>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="hero">
+        <h1>Peddapalem Shaik Mahammed Sirajuddin</h1>
+        <p>B.Tech CSE Student | Future Developer | Web Learner</p>
+    </div>
+    <div class="container">
+        <section id="about" class="card">
+            <h2>About Me</h2>
+            <p>My name is <b>Peddapalem Shaik Mahammed Sirajuddin</b>. I am from Kadapa, Andhra Pradesh. I am currently
+                pursuing my B.Tech in Computer Science and Engineering at Annamacharya Institute Of Technology And
+                Sciences, Rajampet.</p>
+            <p>I focus on coding and designing to improve my skills and career opportunities. I have worked on projects
+                like creating my own digital marketing website which helped me develop my technical abilities.</p>
+            <p>I admire companies that develop top applications like Netflix, Amazon and modern games. My goal is to
+                contribute to such innovative projects in the future.</p>
+        </section>
+        <section id="education" class="card">
+            <h2>Education</h2>
+            <p>B.Tech – Computer Science and Engineering</p>
+            <p>Annamacharya Institute Of Technology And Sciences, Rajampet</p>
+            <p>Andhra Pradesh, India</p>
+        </section>
+        <section id="skills" class="card">
+            <h2>Skills</h2>
+            <div class="skills">
+                <div class="skill-box">HTML</div>
+                <div class="skill-box">CSS</div>
+                <div class="skill-box">JavaScript (Learning)</div>
+                <div class="skill-box">Web Development</div>
+                <div class="skill-box">MERN Stack (Learning)</div>
+                <div class="skill-box">Canva Designing</div>
+            </div>
+        </section>
+        <section id="hobbies" class="card">
+            <h2>Hobbies</h2>
+            <div class="hobbies">
+                <div class="hobby">Photography</div>
+                <div class="hobby">Designing</div>
+                <div class="hobby">Exploring Places</div>
+                <div class="hobby">Learning Technologies</div>
+            </div>
+        </section>
+        <section class="card">
+            <h2>Goals</h2>
+            <ol>
+                <li>Serve my country by becoming a Navy Officer.</li>
+                <li>If that path does not work, build a successful career as a software developer.</li>
+            </ol>
+        </section>
+        <section id="contact" class="card">
+            <h2>Contact</h2>
+            <table class="contact-table">
+                <tr>
+                    <td>Mobile</td>
+                    <td>7337346425</td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><a href="mailto:jarismohammed7@gmail.com">jarismohammed7@gmail.com</a></td>
+                </tr>
+            </table>
+        </section>
+    </div>
+    <footer>
+        <p>© 2026 Peddapalem Shaik Mahammed Sirajuddin | Portfolio Website</p>
+    </footer>
+</body>
+</html>
