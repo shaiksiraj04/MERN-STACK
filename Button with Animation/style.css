@@ -1,0 +1,17 @@
+body{
+    text-align:center;
+    margin-top:200px;
+    font-family:Arial;
+}
+.btn{
+    padding:15px 30px;
+    font-size:18px;
+    background:#6c5ce7;
+    color:white;
+    border:none;
+    transition:0.3s;
+}
+.btn:hover{
+    background:#341f97;
+    transform:scale(1.2);
+}
